@@ -97,12 +97,13 @@ html {
 body {
   font-family: "Lato", sans-serif;
   color: white;
+  margin: 50px;
 }
 
 h2{
   color: #A53F87;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
 }
 
 figure {
@@ -127,7 +128,7 @@ figure {
 a {
   color: white;
   text-transform: uppercase;
-  font-size: .75em;
+  font-size: .50em;
   text-decoration: none;
 }
 
@@ -142,15 +143,26 @@ a:hover{
   flex-wrap: wrap;
 }
 
-/***Physical Page***/
-.physical-content strong{
+
+strong{
   color: #A53F87;
   text-transform: uppercase;
+  position: fixed;
   font-weight: 700;
-  margin-left: 50px;
-  
 }
 
+.due {
+  padding-top: .5px;
+  margin-left: 50px;
+  line-height: .25em;
+}
+
+input {
+  margin: 15px;
+}
+
+/***Physical Page***/
+/***Finance Page***/
 
 /* ==========================================================================
    Helper classes
@@ -235,9 +247,9 @@ a:hover{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+   @media only screen and (min-width: 768px){
+
+   }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
