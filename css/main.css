@@ -104,7 +104,6 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 .home-image {
@@ -157,6 +156,14 @@ a:hover{
   justify-content: space-evenly;
   align-content: space-evenly ;
   flex-wrap: wrap;
+}
+
+.nav-content-home {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 
